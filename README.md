@@ -1,24 +1,18 @@
-📘 Student Timetable Management System
+#📘 Student Timetable Management System
 A modern, easy‑to‑use timetable manager built with Python, Tkinter, and ttkbootstrap.
 
-📌 Overview
+#📌 Overview
 The Student Timetable Management System is a desktop application that allows students to:
-
-Add new classes
-
-View their timetable
-
-Delete individual or all classes
-
-Print their timetable
-
-Switch between light/dark mode
+- Add new classes
+- View their timetable
+- Delete individual or all classes
+- Print their timetable
+- Switch between light/dark mode
 
 Navigate between multiple pages (Timetable, Add Class, Settings)
-
 All data is saved locally in a JSON file, so your timetable is preserved between sessions.
 
-🚀 Features
+#🚀 Features
 ✔ Modern UI using ttkbootstrap
 
 ✔ Multi‑page navigation (Timetable / Add Class / Settings)
