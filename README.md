@@ -66,10 +66,15 @@ The application window will open.
 # 📂 Project Structure
 
 📁 Timetable-System
+
 │
+
 ├── timetable.py        # Main application
+
 ├── timetable.json      # Saved timetable data
+
 └── README.md           # Documentation
+
 
 # 🧠 How It Works
 Data Storage:
