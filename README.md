@@ -91,7 +91,7 @@ The program uses Windows’ built‑in printing system:
 ` os.startfile(file_path, "print") `
 This means printing works only on Windows.
 
-#❗ Troubleshooting
+# ❗ Troubleshooting
 “ModuleNotFoundError: No module named 'ttkbootstrap'”
 Install it:
 ` pip install ttkbootstrap `
