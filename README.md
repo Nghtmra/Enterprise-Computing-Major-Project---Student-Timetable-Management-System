@@ -14,11 +14,17 @@ All data is saved locally in a JSON file, so your timetable is preserved between
 
 # 🚀 Features
 ✔ Modern UI using ttkbootstrap
+
 ✔ Multi‑page navigation (Timetable / Add Class / Settings)
+
 ✔ JSON‑based data storage
+
 ✔ Add, delete, and print classes
+
 ✔ Light/Dark theme toggle
+
 ✔ Alternating row colours for readability
+
 ✔ No internet required
 
 # 🛠 Requirements
@@ -30,56 +36,61 @@ Download from: https://www.python.org/downloads/
 
 2. ttkbootstrap
 Install using pip:
-## pip install ttkbootstrap
+` pip install ttkbootstrap `
 Built‑in modules (already included with Python)
 You do not need to install these:
-- tkinter
-- json
-- os
-- tempfile
+` - tkinter `
+` - json `
+` - os `
+` - tempfile `
 
 # 📥 Installation
 Follow these steps:
 
 1. Download the project
 Download or clone the project folder containing:
-## - timetable.py
-## - timetable.json (auto‑created if missing)
+` - timetable.py `
+` - timetable.json (auto‑created if missing) `
 
 2. Install dependencies
 Open a terminal in Visual Studio Code (Command Prompt, PowerShell, or macOS/Linux terminal):
-## pip install ttkbootstrap
+` pip install ttkbootstrap `
 
 3. Run the program
 Navigate to the folder containing timetable.py:
-## cd path/to/project
+` cd path/to/project `
 Run the program:
-## python timetable.py
+` python timetable.py `
 The application window will open.
 
 # 📂 Project Structure
-📁 Timetable-System
+
+` 📁 Timetable-System
 │
 ├── timetable.py        # Main application
 ├── timetable.json      # Saved timetable data
-└── README.md           # Documentation
+└── README.md           # Documentation `
 
 # 🧠 How It Works
-Data Storage - All timetable entries are stored in:
-## timetable.json
-Pages - Timetable Page → Displays all saved classes
+Data Storage:
+All timetable entries are stored in:
+` timetable.json `
+
+Pages:
+Timetable Page → Displays all saved classes
 Add Class Page → Form to add/delete/print classes
 Settings Page → Theme toggle
 
 # 🖨 Printing
 The program uses Windows’ built‑in printing system:
-## os.startfile(file_path, "print")
+` os.startfile(file_path, "print") `
 This means printing works only on Windows.
 
-##❗ Troubleshooting
+#❗ Troubleshooting
 “ModuleNotFoundError: No module named 'ttkbootstrap'”
 Install it:
-## pip install ttkbootstrap
+` pip install ttkbootstrap `
+Other Problems:
 - The program opens but UI looks plain/white
 - You are using Python 3.14.
 - Install Python 3.12 instead.
