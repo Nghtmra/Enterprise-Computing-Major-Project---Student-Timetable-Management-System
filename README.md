@@ -57,8 +57,9 @@ Open a terminal in Visual Studio Code (Command Prompt, PowerShell, or macOS/Linu
 ` pip install ttkbootstrap `
 
 3. Run the program
-Navigate to the folder containing timetable.py:
-` cd path/to/project `
+Navigate to the folder containing:
+` timetable.py `
+
 Run the program:
 ` python timetable.py `
 The application window will open.
