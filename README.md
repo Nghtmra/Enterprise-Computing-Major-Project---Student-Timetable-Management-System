@@ -39,18 +39,18 @@ Install using pip:
 ` pip install ttkbootstrap `
 Built‑in modules (already included with Python)
 You do not need to install these:
-` - tkinter `
-` - json `
-` - os `
-` - tempfile `
+` tkinter `
+` json `
+` os `
+` tempfile `
 
 # 📥 Installation
 Follow these steps:
 
 1. Download the project
 Download or clone the project folder containing:
-` - timetable.py `
-` - timetable.json (auto‑created if missing) `
+` timetable.py `
+` timetable.json (auto‑created if missing) `
 
 2. Install dependencies
 Open a terminal in Visual Studio Code (Command Prompt, PowerShell, or macOS/Linux terminal):
